@@ -25,6 +25,7 @@ $ git add [arquivo] = adcionar arquivo no contexto do git/preparando para inclus
 $ git commit -m"[mensagem]" = envia um commit linkado a uma mensagem ou uma observação
 O git não reconhece pastas/ diretórios vazios sem arquivos, para entrar em um commit precisa existir um arquivo
 $ git . = se colocar apenas o ponto ele obtem tudo que não foi incluído na preparação e adciona na base para o commit
+$ git push = envia os commits para o diretório remoto
 $ git log = exibe um histórico de todos commits feitos dentro da pasta
 $ rm -rf .git = situacional caso tenha dado um git init em uma pasta errada, este comando remove a preparação do diretório
 $ git restore [arquivo] = ele restaura o arquivo que foi modificado para a última versão commitada.
