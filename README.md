@@ -39,3 +39,8 @@ $ git reset [arquivo] = Caso ocorra de após dar um git add . querer remover um 
 $ git push -u origin main = configurar nossa main como a main do nosso repositório remoto
 $ git pull = obtem todas as alterações que foram feitas no repositório remoto e adciona ao repositório local
 
+
+Receita de bolo para inclusão de um repositório para o github
+git remote add origin [link]
+git branch -M main = renomeia nossa Branch para main
+git push -u origin main
