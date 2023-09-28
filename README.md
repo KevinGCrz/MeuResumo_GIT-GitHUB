@@ -69,11 +69,11 @@ git push -u origin main
 
 ⚙ `git reset --mixed [id do último commit]` = O último commit feito retorna ao status de recebimento dos arquivos, ou seja, eles estão no nível de untracked(novos) para dar um git add então um git. commit.
 
-❗***MIXED:*** `Nivel 2 para o Nivel 1`
+❗❗***MIXED:*** `Nivel 2 para o Nivel 1`
 
 ⚙ `git reset --hard [id do último commit]` = Deleta tudo que foi criado/feito após o commid indicado na seção de indicar o id.
 
-❗***HARD:*** `Nivel 1 apagado`
+❗❗❗***HARD:*** `Nivel 1 apagado`
 
 ⚙ `git ref log` = Exibe um histórico das alterações e commits.
 
