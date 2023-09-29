@@ -83,6 +83,24 @@ git push -u origin main
 
 ⚙ `rm -rf .git` = ***Situacional*** - Caso tenha dado um `git init` em uma pasta errada, este comando remove a preparação do diretório.
 
+## 🔃 Trabalhando com Branches
+
+O git permite criar um ambiente de teste dentro do nosso repositório permitindo fazer alterações e commits sem interfirir no nosso espaço **main**.
+
+`git checkout -b [nome]` = Criar uma branch de teste. O comando vai trocar nosso lugar da **main** para esse novo ambiente criado.
+
+❗ ***Obs.*** A branch teste vai por padrão apontar pro ultimo commit realizado.
+
+`git checkout main` = Retorna para o ambiente **main**.
+
+`git branch -v` = Listagem dos ultimos commits realizados em cada branch criada.
+
+`git merge teste` = Este comando realizará a mesclagem da branch nomeada teste com a main oficializando todas alterações e commits realizados no ambiente **teste**.
+
+`git branch` = Listar as branchs presente no repositório.
+
+`git branch -d teste` = Deletar branch teste.
+
 ## 💾 Dicas valiosas
 
 ! `mkdir [nome]` = Criar uma pasta no repositório.
